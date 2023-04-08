@@ -1,0 +1,306 @@
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 50px;
+    text-decoration: none;
+}
+.navt{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* .sect0{
+    padding: -35px;
+} */
+hr{
+width: 700px;
+padding: -30px;
+}
+.sect1{
+display: flex;
+justify-content: center;
+font-size: 100px;
+}
+.sect2{
+text-align: center;
+font-size: 20px;
+}
+
+/*la section des 8 images */
+.sect-8-img{
+    display: block;
+    align-items: center;
+}
+.sect1-img{
+    width: 325px;
+    height: 325px;
+}
+
+/* le deux blocs de texte */
+.sect3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.bloc1{
+    justify-content: flex-start;
+   height: 400px;
+   width: 600px;
+   font-size: 30px;
+}
+.bloc2{
+    justify-content: flex-start;
+   height: 400px;
+   width: 600px;
+   font-size: 30px;
+}
+
+.sect4-G{
+   display: flex;
+    background-color: whitesmoke;
+    margin-top: 200px;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+}
+
+/* image dans le cercle */
+
+.img-cercle{
+    position: relative;
+    background-color: aquamarine;
+    height: 344px;
+    width: 344px;
+    border-width: 15px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    left: 470px;
+    bottom: 200px;
+    z-index: 1;
+ 
+}
+.carre{
+    position: relative;
+    background-color: white;
+    width: 60%;
+    height: 400px;
+    margin-top: 400px;
+    border-radius: 15px;
+    bottom: 80px;
+    left: -90px;
+}
+.message{
+    text-align: center;
+    padding: 30px;
+    margin-top: 45px;
+    font-size: 25px;
+}
+.bouton{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: coral;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    top: 20px;
+}
+.grd-carre{
+   position: relative;
+    height: 500px;
+    width: 100%;
+    border: 0px;
+    background-color: rgb(245, 78, 12);
+    font-size: 25px;
+    /* z-index: 2; */
+}
+.text12{
+    text-align: center;
+    margin-left: 200px;
+}
+.imgbloc{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    bottom: 100px;
+    z-index: 1;
+}
+.blcs{
+    height: 200px;
+    width: 200px;
+}
+.text-bloc{
+    text-align: center;
+    bottom: 500px;
+}
+/* .sec7gimg{
+    position: relative;
+} */
+/* .text/imge{
+    position: relative;
+    bottom: 500px;
+
+   
+} */ 
+.text-gimg{
+    position: relative;
+    height: 250px;
+    width: 50%;
+    bottom: 400px;
+    left: 400px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+
+.text-we{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.gimage{
+/* position: relative; */
+    height: 500px;
+    width: 100%;
+    z-index: 1;
+}
+.img-n4{
+position: relative;
+}
+.img-nb0{
+    position: relative;
+    height: 250px;
+    width: 400px;
+    bottom: 150px;
+    left: 250px;
+}
+.img-nb1{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    left: 350px;
+}
+.img-nb2{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    left: 350px;
+    bottom: 120px;
+}
+.textpro{
+    position: relative;
+    font-size: 70px;
+    left: 200px;
+    bottom: 50px;
+}
+.img-nb3{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    left: 470px;
+    top: 50px;
+}
+.bloc-4img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+.bloc-4-image{
+    height: 130px;
+    width: 130px;
+}
+.para-0{
+    display: flex;
+    justify-content: center;
+}
+.para-2{
+    height: 200px;
+    width: 700px;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 50px;
+}
+/* le formulaire d'inscription */
+.formulaire{
+    background-color: orangered;
+    width: 100%;
+    height: 800px;
+   padding-top: 50px;
+   margin-top: 100px;
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   justify-content: center;
+}
+.form-inscription{
+    display: flex;
+    background-color: white;
+    width: 40%;
+    height: 650px;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 400px;
+}
+.Name{
+    /* padding-top: 30px; */
+    display: flex;
+    border-radius: 20px;
+    width: 450px;
+    height: 50px;
+    font-size: 25px;
+}
+.Message{
+    display: flex;
+    border-radius: 20px;
+    width: 450px;
+    height: 120px;
+    font-size: 25px;
+}
+.npmess{
+    /* justify-content: flex-start; */
+    font-size: 30px;
+    text-align: left;
+    color: black;
+
+}
+.Submit{
+    /* display: flex; */
+    border-radius: 20px;
+    width: 450px;
+    height: 45px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: orangered;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+/* mon footer */
+.footerb{
+    display: flex;
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    color: white;
+    font-size: 20px;  
+}
+.pf1{
+    display: flex;
+    padding-top: 40px;
+   text-align: center;
+   margin-left: 400px;
+}
+.pf2{
+    padding-top: 40px;
+   text-align: center;
+   margin-left: 430px;
+}
+
+.lien{
+    color: aqua;
+}
